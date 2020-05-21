@@ -1,0 +1,116 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+nav {
+    background-color: #e8a220;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .2em;
+}
+
+nav div {
+    color: #870303;
+    font-size: 20px;
+    margin: 5px 10px;
+    font-family: 'Trebuchet MS', Arial, sans-serif
+}
+
+nav a {
+    color: white;
+    margin: .2em 1em 0px 1em;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Arial, sans-serif
+}
+
+nav a:hover {
+    color: lightskyblue;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.wrapper {
+    background-color: white;
+}
+
+header {
+    margin: 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    background-color: #e6d39e;
+}
+
+main {
+    flex: 3;
+    margin: 1em;
+}
+
+aside {
+    flex: 1;
+    margin: 1em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: goldenrod;
+}
+
+main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    padding-bottom: 0px;
+    color: #870303;
+}
+
+main p {
+    font-size: 1.25em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color: #870303;
+}
+
+article {
+    padding: 0px 10px 0px 10px;
+    background-color: #e8a220;
+    border: #875703 solid 1px;
+    text-align: center;
+}
+
+article p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+footer {
+    padding: 3px; 
+}
